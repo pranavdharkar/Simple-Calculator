@@ -29,7 +29,7 @@ Do you want to perform another calculation? (y/n): n
 Exiting the Simple Calculator...
 ```
 
-## v0.1.0
+## v0.1.1
 
 Download the Windows executable: **[`simpleCalculator.exe`](https://github.com/pranavdharkar/simple_calculator/releases/download/v0.1.0/simpleCalculator.exe)**
 
