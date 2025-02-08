@@ -11,16 +11,22 @@ A basic command-line calculator that supports: `+ - * /`
 ## Application Preview
 
 ``` 
-Enter a first number: abc
-Invalid input. Please enter a valid first number: 10
-
-Enter an operator (+ - * /): x
-Invalid Operator. Please enter a valid operator (+ - * /): *
-
-Enter a second number: hello
-Invalid input. Please enter a valid second number: 5
-
-Result: 50 
+Enter a first number: n
+Invalid input. Please enter a valid first number: 7
+Enter an operator (+ - * /): Add
+Invalid Operator. Please enter a valid operator (+ - * /): +
+Enter a second number: hi
+Invalid input. Please enter a valid second number: 7
+7 + 7 = 14
+Do you want to perform another calculation? (y/n): yes
+Invalid input.
+Do you want to perform another calculation? (y/n): Y
+Enter a first number: 10
+Enter an operator (+ - * /): *
+Enter a second number: 10
+10 * 10 = 100
+Do you want to perform another calculation? (y/n): n
+Exiting the Simple Calculator...
 ```
 
 ## v0.1.0
