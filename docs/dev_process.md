@@ -1,4 +1,4 @@
-# development_process
+# Simple Calculator - Dev Process
 Outlines the development process for a **Simple Calculator**.
 
 ## Project Setup

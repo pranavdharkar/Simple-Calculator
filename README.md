@@ -1,4 +1,4 @@
-# simple_calculator (C++)
+# Simple Calculator
 
 A basic command-line calculator that supports: `+ - * /`
 
