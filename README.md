@@ -4,6 +4,7 @@ A basic command-line calculator that supports: `+ - * /`
 
 * Handles division by zero.
 * Prompts the user until valid input is entered.
+* Asks the user if they want to perform another calculation.
 
 ## Repository Overview
  For a quick tour of repository, check out [`repo_tour.md`](docs/repo_tour.md).
@@ -31,7 +32,7 @@ Exiting the Simple Calculator...
 
 ## v0.1.1
 
-Download the Windows executable: **[`simpleCalculator.exe`](https://github.com/pranavdharkar/simple_calculator/releases/download/v0.1.0/simpleCalculator.exe)**
+Download the Windows executable: **[`simple_calculator_v0.1.1`](https://github.com/pranavdharkar/simple_calculator/releases/download/v0.1.1/simple_calculator_v0.1.1.exe)**
 
 ## How to Build and Run
 

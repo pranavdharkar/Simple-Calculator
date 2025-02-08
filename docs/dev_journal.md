@@ -3,8 +3,15 @@ Tracks the developement process, including version history, bugs/issues, and ide
 > Use this journal to stay informed about the project's current state and future plans.
 
 
-# `v0.1.1 [Unreleased]`
-GitHub Branch : `v0.1.1_dev`
+# `v0.1.2 [Unreleased]`
+
+GitHub Branch : `v0.1.2_dev`
+
+
+# [`v0.1.1`](https://github.com/pranavdharkar/simple_calculator/releases/tag/v0.1.1)
+Release Date : 08 Feb 25 <br/>
+GitHub Branch : **[`release_v0.1.1`](https://github.com/pranavdharkar/simple_calculator/tree/release_v0.1.1)** <br/>
+Download the Windows executable : **[`simple_calculator_v0.1.1`](https://github.com/pranavdharkar/simple_calculator/releases/download/v0.1.1/simple_calculator_v0.1.1.exe)**
 
 ## Features 
 - Do you want to perform another calculation? (y/n): 
@@ -33,7 +40,7 @@ GitHub Branch : `v0.1.1_dev`
 
 # [`v0.1.0`](https://github.com/pranavdharkar/simple_calculator/releases/tag/v0.1.0)
 Release Date : 04 Feb 25 <br/>
-GitHub Branch : **[`v0.1.0`](https://github.com/pranavdharkar/simple_calculator/tree/v0.1.0)** <br/>
+GitHub Branch : **[`release_v0.1.0`](https://github.com/pranavdharkar/simple_calculator/tree/release_v0.1.0)** <br/>
 Download the Windows executable : **[`simpleCalculator.exe`](https://github.com/pranavdharkar/simple_calculator/releases/download/v0.1.0/simpleCalculator.exe)**
 
 ## Features
