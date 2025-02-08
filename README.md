@@ -1,65 +1,14 @@
-# Simple Calculator (C++)
-A basic command-line calculator that supports:
+# simple_calculator (C++)
 
-+ Addition (+)
+A basic command-line calculator that supports: `+ - * /`
 
-- Subtraction (-)
+* Handles division by zero.
+* Prompts the user until valid input is entered.
 
-* Multiplication (*)
+## Repository Overview
+ For a quick tour of repository, check out [`repo_tour.md`](docs/repo_tour.md).
 
-* Division (/) (Handles division by zero)
-
-This project ensures valid user input, preventing errors caused by invalid characters or operations.
-
-
-
-## Design Considerations
-### 1. Input Validation
-+ Check that num1 and num2 are valid numeric values. <br/>
-+ If a user enters a string or character, the program will repeatedly prompt for a valid number.
-
-### 2. Operator Validation
-+ Accepts only four basic operators: +, -, *, /. <br/>
-+ If an invalid operator is entered, the program prompts the user until a valid operator is provided.
-
-### 3. Mathematical Consideration
-+ Standard division (a / b) works only if b ≠ 0. <br/>
-+ If b = 0, the program displays an result as undefined:
-
-### 4. Single Operation Only
-+ This calculator performs only one operation at a time. <br/>
-+ If the user wants to perform another calculation, they need to restart the program.
-
-## Flowchart
-
-Created the `flowchart.md` with help of mermaid (Mermaid is a JavaScript-based tool that allows you to create diagrams and flowcharts using simple text syntax within Markdown files).
-
-[View Flowchart](Flowchart.md)
-
-
-## How to Compile & Run
-
-- Using g++ (Linux/macOS/Windows) 
-
-**1. Clone this repository**
-
-```
-git clone https://github.com/pranavdharkar/Simple-Calculator.git
-cd Simple-Calculator
-```
-
-**2. Compile the program**
-```
-g++ simpleCalculator.cpp -o simpleCalculator
-```
-**3. Run the executable**
-```
-./simpleCalculator  # Linux/macOS  
-./simpleCalculator.exe # Windows 
-```
-
-
-## Example
+## Application Preview
 
 ``` 
 Enter a first number: abc
@@ -73,3 +22,27 @@ Invalid input. Please enter a valid second number: 5
 
 Result: 50 
 ```
+
+## v0.1.0
+
+Download the Windows executable: **[`simpleCalculator.exe`](https://github.com/pranavdharkar/simple_calculator/releases/download/v0.1.0/simpleCalculator.exe)**
+
+## How to Build and Run
+
+- ### Prerequisites
+  - C++ and Compiler
+
+- ### Steps
+  - Compile the [`simple_calculator.cpp`](./simple_calculator.cpp).
+  - Run the generated executable.
+
+## Explore More
+
+- **[`docs/`](./docs/)** - Directory of detailed documentation:
+  - **[`dev_journal.md`](./docs/dev_journal.md)** - Future feature ideas, Known bugs, versions history.
+  - **[`dev_process.md`](./docs/dev_process.md)** - Standard development process.
+  - **[`flowchart.md`](./docs/flowchart.md)** - Diagrams explaining architecture and processes.
+  - **[`repo_tour.md`](./docs/repo_tour.md)** - Overview of the repository.
+
+## Issues & Feature Requests
+Have an idea, found a bug, or need help? [`Open an issue`](https://github.com/pranavdharkar/simple_calculator/issues/new?template=Blank+issue).

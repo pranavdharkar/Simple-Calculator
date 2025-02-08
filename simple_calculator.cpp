@@ -8,46 +8,52 @@ double num1, num2, result;
 char op;
 
 // functions
-void isNum1Valid ();
-void isNum2Valid();
-void isOpValid();
+void get_valid_num1();
+void get_valid_num2();
+void get_valid_op();
+void get_valid_yn_to_continue();
 
 int main()
 {
-    isNum1Valid();
-    isOpValid();
-    isNum2Valid();
+  get_valid_num1();
+  get_valid_op();
+  get_valid_num2();
 
-    switch (op)
-    {
-      case '+':
-        result = num1+num2;
-        break;
-      case '-':
-        result = num1-num2;
-        break;
-      case '*':
-        result = num1*num2;
-        break;
-      case '/':
-        if (num2 == 0)
-        {
-          cout << num1 << " " << op << " " << num2 << " = undifined" << endl; 
-          return 0;
-        }
-        else
-        {
-          result = num1/num2;
-        }
-        break;
-    }
-
+  switch (op)
+  {
+    case '+':
+      result = num1+num2;
+      break;
+    case '-':
+      result = num1-num2;
+      break;
+    case '*':
+      result = num1*num2;
+      break;
+    case '/':
+      if (num2 == 0)
+      {
+        cout << "Division by zero is undefined" << endl; 
+        goto exitloop;
+      }
+      else
+      {
+        result = num1/num2;
+      }
+      break;
+  }
+  
   cout << num1 << " " << op << " " << num2 << " = " << result << endl; 
+
+  exitloop:
+  
+  get_valid_yn_to_continue();
+
   return 0;
 }
 
 
-void isNum1Valid()
+void get_valid_num1()
 {
   string str;
   cout << "Enter a first number: ";
@@ -69,7 +75,7 @@ void isNum1Valid()
   }
 }
 
-void isNum2Valid()
+void get_valid_num2()
 {
   string str;
   cout << "Enter a second number: ";
@@ -91,7 +97,7 @@ void isNum2Valid()
   }
 }
 
-void isOpValid()
+void get_valid_op()
 {
     string str;
     cout << "Enter an operator (+ - * /): ";
@@ -110,4 +116,33 @@ void isOpValid()
             getline(cin, str);
         }
     }
+}
+
+void get_valid_yn_to_continue()
+{
+  string str;
+  cout << "Do you want to perform another calculation? (y/n): ";
+  getline(cin, str);
+
+  while (true)
+  {
+    if(str.length() == 1 && (str[0] == 'Y' || str[0] == 'N' || str[0] == 'y' || str[0] == 'n'))
+    {
+      if(str[0] == 'Y' || str[0] == 'y')
+      {
+        main();
+      }
+      else
+      {
+        cout << "Exiting the Simple Calculator..." << endl;
+        exit(0);
+      }
+      break;
+    }
+    else
+    {
+      cout << "Invalid input.\nDo you want to perform another calculation? (y/n): ";
+      getline(cin, str);
+    }
+  }
 }
