@@ -40,7 +40,7 @@ Outlines the development process for a **Simple Calculator**.
 - Cover edge cases such as division by zero.
 
 ## Bug and Idea Tracking
-- Log improvement ideas, identified bugs in **[`dev_journal.md`](./docs/dev_journal.md)**.
+- Log improvement ideas, identified bugs in **[`dev_journal.md`](./dev_journal.md)**.
 - Continue this process until there are no outstanding bugs or ideas.
 
 ## Release
@@ -48,7 +48,7 @@ Outlines the development process for a **Simple Calculator**.
 * Create a GitHub release
 
 ### Documentation
-- Update the **[`dev_journal.md`](./docs/dev_journal.md)** and **[`README.md`](../README.md)**.
+- Update the **[`dev_journal.md`](./dev_journal.md)** and **[`README.md`](../README.md)**.
 
 ## Release
 * Update main branch links in all documentation
